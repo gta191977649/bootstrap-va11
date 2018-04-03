@@ -1,0 +1,28 @@
+.panel {
+    margin-bottom: 20px;
+    background-color: black;
+    border: 3px solid inherit;
+    border-radius: 0%;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+}
+.panel-heading {
+    padding: 2px;
+    border-radius: 0%;
+   
+}
+.panel-title {
+    font-weight: bold;
+}
+.panel-body {
+    color: white;
+}
+.panel-default > .panel-heading {
+    color: black;
+    background-color: white;
+    border-color: transparent;
+}
+
+.panel-primary,.panel-success,.panel-info,.panel-warning,.panel-danger,.panel-body {
+
+}
