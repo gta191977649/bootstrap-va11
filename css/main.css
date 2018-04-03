@@ -4,28 +4,28 @@
   src: url("../font/font.ttf");
 }
 
-/* line 1, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/base/_normalize.scss */
+/* line 1, D:/phpStudy/WWW/bootstrap-va11/scss/base/_normalize.scss */
 h1, h2, h3, h4, h5 {
   color: #FFF;
 }
 
-/* line 5, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/base/_normalize.scss */
+/* line 5, D:/phpStudy/WWW/bootstrap-va11/scss/base/_normalize.scss */
 a {
   color: #808080;
 }
 
-/* line 2, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/base/_base.scss */
+/* line 2, D:/phpStudy/WWW/bootstrap-va11/scss/base/_base.scss */
 body {
   font-family: "VA-11";
   background: #264BFF;
 }
 
-/* line 7, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/base/_base.scss */
+/* line 7, D:/phpStudy/WWW/bootstrap-va11/scss/base/_base.scss */
 .va11-theme {
   background: black;
 }
 
-/* line 11, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/base/_base.scss */
+/* line 11, D:/phpStudy/WWW/bootstrap-va11/scss/base/_base.scss */
 .va11-nopadding {
   padding: 0px;
 }
@@ -34,61 +34,61 @@ body {
 /*
     按鈕控件主題
 */
-/* line 4, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 4, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn-link {
   border-radius: 0%;
   padding: 5px;
   border: none;
 }
 
-/* line 9, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 9, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-default {
   background: transparent;
   color: white;
 }
 
-/* line 13, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 13, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-default:hover {
   background: white;
   color: black;
 }
 
-/* line 17, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 17, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-primary {
   background: #87A6E3;
 }
 
-/* line 20, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 20, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-success {
   background: #76D969;
 }
 
-/* line 23, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 23, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-info {
   background: #3CE2E2;
 }
 
-/* line 26, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 26, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-warning {
   background: #FFA043;
 }
 
-/* line 29, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 29, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-danger {
   background: #DA5D58;
 }
 
-/* line 32, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 32, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-link {
   color: #808080;
 }
 
-/* line 35, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_buttons.scss */
+/* line 35, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_buttons.scss */
 .btn-link:hover {
   color: #FFF;
 }
 
-/* line 1, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_panels.scss */
+/* line 1, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_panels.scss */
 .panel {
   margin-bottom: 20px;
   background-color: black;
@@ -98,23 +98,23 @@ body {
   box-shadow: 0;
 }
 
-/* line 9, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_panels.scss */
+/* line 9, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_panels.scss */
 .panel-heading {
   padding: 2px;
   border-radius: 0%;
 }
 
-/* line 14, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_panels.scss */
+/* line 14, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_panels.scss */
 .panel-title {
   font-weight: bold;
 }
 
-/* line 17, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_panels.scss */
+/* line 17, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_panels.scss */
 .panel-body {
   color: white;
 }
 
-/* line 20, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/modules/_panels.scss */
+/* line 20, D:/phpStudy/WWW/bootstrap-va11/scss/modules/_panels.scss */
 .panel-default > .panel-heading {
   color: black;
   background-color: white;
@@ -122,21 +122,21 @@ body {
 }
 
 /* Layouts */
-/* line 1, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 1, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar {
   margin: 0px;
   border-radius: 0px;
   min-height: 20px;
 }
 
-/* line 6, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 6, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-nav li a {
   line-height: 20px;
   height: 20px;
   padding-top: 0;
 }
 
-/* line 11, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 11, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-brand {
   line-height: 20px;
   height: 20px;
@@ -144,42 +144,42 @@ body {
   font-weight: bold;
 }
 
-/* line 18, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 18, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default {
   background-color: #f8f8f8;
   border: 0px;
 }
 
-/* line 22, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 22, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-brand {
   color: black;
 }
 
-/* line 25, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 25, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: black;
   background-color: transparent;
 }
 
-/* line 30, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 30, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-text {
   color: black;
 }
 
-/* line 33, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 33, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > li > a {
   color: black;
 }
 
-/* line 36, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 36, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: white;
   background-color: black;
 }
 
-/* line 41, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 41, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -187,7 +187,7 @@ body {
   background-color: black;
 }
 
-/* line 47, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 47, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
@@ -195,29 +195,29 @@ body {
   background-color: transparent;
 }
 
-/* line 53, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 53, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-toggle {
   border-color: #ddd;
 }
 
-/* line 56, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 56, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #ddd;
 }
 
-/* line 60, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 60, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
 }
 
-/* line 63, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 63, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
 
-/* line 67, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 67, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -226,24 +226,24 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* line 74, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+  /* line 74, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
-  /* line 77, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+  /* line 77, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333;
     background-color: transparent;
   }
-  /* line 82, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+  /* line 82, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
     background-color: #e7e7e7;
   }
-  /* line 88, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+  /* line 88, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -252,28 +252,28 @@ body {
   }
 }
 
-/* line 95, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 95, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-link {
   color: #777;
 }
 
-/* line 98, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 98, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-link:hover {
   color: #333;
 }
 
-/* line 101, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 101, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .btn-link {
   color: #777;
 }
 
-/* line 104, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 104, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
   color: #333;
 }
 
-/* line 108, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 108, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
 .navbar-default .btn-link[disabled]:focus,
@@ -281,13 +281,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 
-/* line 114, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 114, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu {
   border-radius: 0px;
   border: none;
 }
 
-/* line 118, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 118, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: white;
@@ -295,7 +295,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: black;
 }
 
-/* line 124, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 124, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
@@ -305,14 +305,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   outline: 0;
 }
 
-/* line 132, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 132, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   color: #777;
 }
 
-/* line 137, C:/Users/SPARROW-DESKTOP/Desktop/va-11/scss/layouts/_nav.scss */
+/* line 137, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
