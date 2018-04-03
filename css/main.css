@@ -23,9 +23,11 @@ body {
 /* line 7, D:/phpStudy/WWW/bootstrap-va11/scss/base/_base.scss */
 .va11-theme {
   background: black;
+  border-left: 4px solid #FFF;
+  border-right: 4px solid #FFF;
 }
 
-/* line 11, D:/phpStudy/WWW/bootstrap-va11/scss/base/_base.scss */
+/* line 13, D:/phpStudy/WWW/bootstrap-va11/scss/base/_base.scss */
 .va11-nopadding {
   padding: 0px;
 }
@@ -126,60 +128,62 @@ body {
 .navbar {
   margin: 0px;
   border-radius: 0px;
-  min-height: 20px;
+  min-height: 25px;
 }
 
 /* line 6, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-nav li a {
-  line-height: 20px;
-  height: 20px;
+  line-height: 25px;
+  height: 25px;
   padding-top: 0;
 }
 
-/* line 11, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 12, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-brand {
-  line-height: 20px;
-  height: 20px;
+  line-height: 25px;
+  height: 25px;
   padding-top: 0;
   font-weight: bold;
 }
 
-/* line 18, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 19, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default {
   background-color: #f8f8f8;
   border: 0px;
 }
 
-/* line 22, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 24, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-brand {
   color: black;
 }
 
-/* line 25, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 27, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: black;
   background-color: transparent;
 }
 
-/* line 30, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 32, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-text {
   color: black;
 }
 
-/* line 33, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 36, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > li > a {
   color: black;
+  font-weight: bold;
+  font-size: 16px;
 }
 
-/* line 36, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 41, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: white;
   background-color: black;
 }
 
-/* line 41, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 46, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -187,7 +191,7 @@ body {
   background-color: black;
 }
 
-/* line 47, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 52, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
@@ -195,29 +199,29 @@ body {
   background-color: transparent;
 }
 
-/* line 53, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 58, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-toggle {
   border-color: #ddd;
 }
 
-/* line 56, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 61, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #ddd;
 }
 
-/* line 60, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 65, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
 }
 
-/* line 63, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 68, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
 
-/* line 67, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 72, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -226,24 +230,24 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* line 74, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+  /* line 79, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
-  /* line 77, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+  /* line 82, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333;
     background-color: transparent;
   }
-  /* line 82, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+  /* line 87, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
     background-color: #e7e7e7;
   }
-  /* line 88, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+  /* line 93, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -252,28 +256,28 @@ body {
   }
 }
 
-/* line 95, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 100, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-link {
   color: #777;
 }
 
-/* line 98, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 103, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .navbar-link:hover {
   color: #333;
 }
 
-/* line 101, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 106, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .btn-link {
   color: #777;
 }
 
-/* line 104, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 109, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
   color: #333;
 }
 
-/* line 108, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 113, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
 .navbar-default .btn-link[disabled]:focus,
@@ -281,13 +285,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 
-/* line 114, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 119, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu {
   border-radius: 0px;
   border: none;
 }
 
-/* line 118, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 123, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: white;
@@ -295,7 +299,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: black;
 }
 
-/* line 124, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 129, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+.dropdown-menu > li > a {
+  font-weight: bold;
+}
+
+/* line 132, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
@@ -305,14 +314,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   outline: 0;
 }
 
-/* line 132, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 140, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   color: #777;
 }
 
-/* line 137, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
+/* line 145, D:/phpStudy/WWW/bootstrap-va11/scss/layouts/_nav.scss */
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   text-decoration: none;

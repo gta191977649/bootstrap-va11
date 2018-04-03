@@ -1,16 +1,17 @@
 .navbar {
 margin: 0px;
 border-radius: 0px;
-min-height: 20px;
+min-height: 25px;
 }
 .navbar-nav li a {
-line-height: 20px;
-height: 20px;
+line-height: 25px;
+height: 25px;
 padding-top: 0;
+
 }
 .navbar-brand {
-line-height: 20px;
-height: 20px;
+line-height: 25px;
+height: 25px;
 padding-top: 0;
 font-weight: bold;
 }
@@ -19,6 +20,7 @@ font-weight: bold;
 background-color: #f8f8f8;
 border: 0px;
 }
+
 .navbar-default .navbar-brand {
 color: black;
 }
@@ -30,8 +32,11 @@ background-color: transparent;
 .navbar-default .navbar-text {
 color: black;
 }
+
 .navbar-default .navbar-nav > li > a {
-color: black
+color: black;
+font-weight: bold;
+font-size: 16px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -120,6 +125,9 @@ color: #ccc;
   color: white;
   text-decoration: none;
   background-color: black;
+}
+.dropdown-menu > li > a{
+    font-weight: bold;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
