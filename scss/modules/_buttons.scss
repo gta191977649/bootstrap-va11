@@ -15,23 +15,38 @@
     color: black;
 }
 .btn-primary {
-    background: #87A6E3;
+    background: $primary-color;
+}
+.btn-primary:hover {
+    background: $primary-color-hover;
 }
 .btn-success{
-    background: #81c784;
+    background: $success-color;
+}
+.btn-success:hover{
+    background: $success-color-hover;
 }
 .btn-info {
-    background: #4dd0e1;
+    background: $info-color;
+}
+.btn-info:hover {
+    background: $info-color-hover;
 }
 .btn-warning {
-    background: #ffb74d;
+    background: $warning-color;
+}
+.btn-warning:hover {
+    background: $warning-color-hover;
 }
 .btn-danger {
-    background: #DA5D58;
+    background: $danger-color;
+}
+.btn-danger:hover {
+    background: $danger-color-hover;
 }
 .btn-link {
-    color: #fafafa;
+    color: $link-color;
 }
 .btn-link:hover {
-    color: #fafafa;
+    color: $link-color-hover;
 }

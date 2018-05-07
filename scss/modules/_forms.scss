@@ -1,0 +1,32 @@
+.form-control{
+    border-radius: 1;
+    border: none;
+    box-shadow: none;
+}
+input[type="text"] {
+    line-height: normal;
+    border: 1px solid #FFF;
+    background-color: black;
+    color:#FFF;
+}
+input[type="text"]:hover {
+    border: 1px solid $primary-color;
+}
+input[type="submit"] {
+    line-height: normal;
+    border: 1px solid #FFF;
+    background-color: black;
+    color:#FFF;
+}
+button[type="submit"] {
+    line-height: normal;
+    border: none;
+    background-color: $success-color;
+    color:#FFF;
+}
+button[type="submit"]:hover {
+    line-height: normal;
+    border: none;
+    background-color: $success-color-hover;
+    color:#FFF;
+}
