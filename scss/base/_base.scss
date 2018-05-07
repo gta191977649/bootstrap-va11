@@ -1,10 +1,13 @@
 
 body {
     font-family: "VA-11";
-    background: #264BFF;
+    background: #1F1A2D;
     color: #fafafa;
+    cursor: url("../img/Va11halla_Pointer.png"), auto;
 }
-
+:hover {
+    cursor: url("../img/Va11halla_Pointer.png"), auto;
+}
 .va11-theme {
     background: black;
     border-left: 4px solid #FFF;

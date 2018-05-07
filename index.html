@@ -25,7 +25,10 @@
 </head>
 
 <body>
-    <div class="container va11-nopadding">
+    <div class="marquee-top-fixed" id="marquee-top">VA-11 Hall-A: Cyberpunk Bartender Action &nbsp;</div>
+    <div class="marquee-bottom-fixed" id="marquee-bottom">VA-11 Hall-A: Cyberpunk Bartender Action &nbsp;</div>
+
+    <div class="container va11-nopadding" style="margin-top: 80px;">
         <!-- top nav -->
         <nav class="navbar navbar-default">
             <div class="container">
@@ -767,14 +770,58 @@
 
 
     </div>
+ 
     <!-- /container -->
 
+    <!-- UI Sound Effect -->
+    <audio id='audio_hover' src='sounds/mouse_hover.ogg' autoplay/>
+    <audio id='audio_click' src='sounds/buttonclick.ogg' autoplay/>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/va-11.js"></script>
+    <!-- Additional Script -->
+    <script src="js/jquery.marquee.min.js"></script>
+    <script>
+        //Append text to with 
+        var screenWidth = document.body.clientWidth;
+        var repeatText = document.getElementById('marquee-top').innerHTML;
+        //alert(screenWidth);
+        
+        var i;
+        for(i=0; i < screenWidth / repeatText.length; i++) {
+            document.getElementById('marquee-top').innerHTML += repeatText;
+            document.getElementById('marquee-bottom').innerHTML += repeatText;
+        }
+
+        $('#marquee-top').marquee({
+            //duration in milliseconds of the marquee
+            duration: 12000,
+            //gap in pixels between the tickers
+            gap: 50,
+            //time in milliseconds before the marquee will start animating
+            delayBeforeStart: 0,
+            //'left' or 'right'
+            direction: 'left',
+            //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: false
+        });
+        $('#marquee-bottom').marquee({
+            //duration in milliseconds of the marquee
+            duration: 12000,
+            //gap in pixels between the tickers
+            gap: 50,
+            //time in milliseconds before the marquee will start animating
+            delayBeforeStart: 0,
+            //'left' or 'right'
+            direction: 'right',
+            //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: false
+        });
+       
+    </script>
     <script src="js/bootstrap.js"></script>
 
 </body>

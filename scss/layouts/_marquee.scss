@@ -1,0 +1,18 @@
+.marquee-top-fixed {
+    height: 50px;
+    background-color: #366E8F;
+    font-size: 30px;
+    line-height: 50px;
+    width: 100%;
+    position: fixed; top: 0px;
+    z-index: 1;
+}
+.marquee-bottom-fixed {
+    height: 50px;
+    background-color: #366E8F;
+    font-size: 30px;
+    line-height: 50px;
+    width: 100%;
+    position: fixed; bottom: 0px;
+    z-index: 1;
+}

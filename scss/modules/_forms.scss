@@ -6,7 +6,7 @@
 input[type="text"] {
     line-height: normal;
     border: 1px solid #FFF;
-    background-color: black;
+    background-color: transparent;
     color:#FFF;
 }
 input[type="text"]:hover {
@@ -15,7 +15,7 @@ input[type="text"]:hover {
 input[type="number"] {
     line-height: normal;
     border: 1px solid #FFF;
-    background-color: black;
+    background-color: transparent;
     color:#FFF;
 }
 input[type="number"]:hover {
@@ -23,8 +23,8 @@ input[type="number"]:hover {
 }
 input[type="email"] {
     line-height: normal;
-    border: 1px solid #FFF;
-    background-color: black;
+    border: 2px solid #FFF;
+    background-color: transparent;
     color:#FFF;
 }
 input[type="email"]:hover {
