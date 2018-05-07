@@ -3,13 +3,13 @@
     border: none;
     box-shadow: none;
 }
-input[type="text"] {
+input {
     line-height: normal;
     border: 1px solid #FFF;
     background-color: black;
     color:#FFF;
 }
-input[type="text"]:hover {
+input:hover {
     border: 1px solid $primary-color;
 }
 input[type="submit"] {
