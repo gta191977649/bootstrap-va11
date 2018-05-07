@@ -3,13 +3,40 @@
     border: none;
     box-shadow: none;
 }
-input {
+input[type="text"] {
     line-height: normal;
     border: 1px solid #FFF;
     background-color: black;
     color:#FFF;
 }
-input:hover {
+input[type="text"]:hover {
+    border: 1px solid $primary-color;
+}
+input[type="number"] {
+    line-height: normal;
+    border: 1px solid #FFF;
+    background-color: black;
+    color:#FFF;
+}
+input[type="number"]:hover {
+    border: 1px solid $primary-color;
+}
+input[type="email"] {
+    line-height: normal;
+    border: 1px solid #FFF;
+    background-color: black;
+    color:#FFF;
+}
+input[type="email"]:hover {
+    border: 1px solid $primary-color;
+}
+input[type="password"] {
+    line-height: normal;
+    border: 1px solid #FFF;
+    background-color: black;
+    color:#FFF;
+}
+input[type="password"]:hover {
     border: 1px solid $primary-color;
 }
 input[type="submit"] {
