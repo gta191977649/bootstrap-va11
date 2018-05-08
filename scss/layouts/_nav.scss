@@ -165,6 +165,11 @@ color: #ccc;
 }
 
 /* nasted dropdown style fix */
+.dropdown-submenu {
+    position: relative;
+}
+
+
 .dropdown-submenu .dropdown-menu {
     top: 0;
     left: 100%;
