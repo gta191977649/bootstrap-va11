@@ -372,7 +372,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 /* Effects */
 .va-11-box-shadow {
-  border-left: 8px solid black;
-  border-bottom: 8px solid black; }
+  padding: 10px;
+  box-shadow: 5px 10px black; }
 
 /*# sourceMappingURL=main.css.map */
