@@ -50,34 +50,39 @@ body {
   color: black; }
 
 .btn-primary {
-  background: #87A6E3; }
+  background: #87A6E3;
+  color: black; }
 
 .btn-primary:hover {
-  background: #90caf9; }
+  background: #b9d7ff; }
 
 .btn-success {
-  background: #81c784; }
+  background: #a1c771;
+  color: black; }
 
 .btn-success:hover {
-  background: #a5d6a7; }
+  background: #d3faa1; }
 
 .btn-info {
-  background: #4dd0e1; }
+  background: #4dd0e1;
+  color: black; }
 
 .btn-info:hover {
   background: #81d4fa; }
 
 .btn-warning {
-  background: #ffb74d; }
+  background: #FEC73D;
+  color: black; }
 
 .btn-warning:hover {
-  background: #ffd54f; }
+  background: #fffa70; }
 
 .btn-danger {
-  background: #DA5D58; }
+  background: #e22743;
+  color: black; }
 
 .btn-danger:hover {
-  background: #e57373; }
+  background: #ff636e; }
 
 .btn-link {
   color: #fafafa; }
@@ -130,19 +135,19 @@ input[type="submit"] {
   line-height: normal;
   border: 1px solid #FFF;
   background-color: black;
-  color: #FFF; }
+  color: black; }
 
 button[type="submit"] {
   line-height: normal;
   border: none;
-  background-color: #81c784;
-  color: #FFF; }
+  background-color: #a1c771;
+  color: black; }
 
 button[type="submit"]:hover {
   line-height: normal;
   border: none;
-  background-color: #a5d6a7;
-  color: #FFF; }
+  background-color: #d3faa1;
+  color: black; }
 
 .panel {
   margin-bottom: 20px;
