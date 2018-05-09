@@ -46,40 +46,34 @@ body {
   color: white; }
 
 .btn-default:hover {
-  background: white;
-  color: black; }
+  background: white; }
 
 .btn-primary {
-  background: #87A6E3;
-  color: black; }
+  background: #87A6E3; }
 
 .btn-primary:hover {
   background: #b9d7ff; }
 
 .btn-success {
-  background: #a1c771;
-  color: black; }
+  background: #a1c771; }
 
 .btn-success:hover {
   background: #d3faa1; }
 
 .btn-info {
-  background: #4dd0e1;
-  color: black; }
+  background: #2196f3; }
 
 .btn-info:hover {
-  background: #81d4fa; }
+  background: #6ec6ff; }
 
 .btn-warning {
-  background: #FEC73D;
-  color: black; }
+  background: #ffa043; }
 
 .btn-warning:hover {
-  background: #fffa70; }
+  background: #ffd173; }
 
 .btn-danger {
-  background: #e22743;
-  color: black; }
+  background: #e22743; }
 
 .btn-danger:hover {
   background: #ff636e; }
