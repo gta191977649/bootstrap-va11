@@ -43,17 +43,18 @@ input[type="submit"] {
     line-height: normal;
     border: 1px solid #FFF;
     background-color: black;
-    color: black;
+    color: white;
+    
 }
 button[type="submit"] {
     line-height: normal;
     border: none;
     background-color: $success-color;
-    color: black;
+    color: white;
 }
 button[type="submit"]:hover {
     line-height: normal;
     border: none;
     background-color: $success-color-hover;
-    color: black;
+    color: white;
 }
