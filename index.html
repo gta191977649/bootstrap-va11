@@ -90,6 +90,35 @@
             <p>This theme inspired by video game - VA-11 Hall-A: Cyberpunk Bartender Action</p>
         </div>
         <div class="page-header">
+            <h1>Modals</h1>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h1>Hello Wolrd</h1>
+                            <p>Test paragrah ................</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-header">
             <h1>Buttons</h1>
         </div>
         <p>
@@ -770,7 +799,7 @@
 
 
     </div>
- 
+
     <!-- /container -->
 
     <!-- UI Sound Effect -->
@@ -789,13 +818,13 @@
         var screenWidth = document.body.clientWidth;
         var repeatText = document.getElementById('marquee-top').innerHTML;
         //alert(screenWidth);
-        
+
         var i;
-        for(i=0; i < screenWidth / repeatText.length; i++) {
+        for (i = 0; i < screenWidth / repeatText.length; i++) {
             document.getElementById('marquee-top').innerHTML += repeatText;
             document.getElementById('marquee-bottom').innerHTML += repeatText;
         }
-        
+
         $('#marquee-top').marquee({
             //duration in milliseconds of the marquee
             duration: 12000,
@@ -820,7 +849,7 @@
             //true or false - should the marquee be duplicated to show an effect of continues flow
             duplicated: false
         });
-       
+
     </script>
     <script src="js/bootstrap.js"></script>
 
