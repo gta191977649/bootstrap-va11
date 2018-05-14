@@ -31,7 +31,12 @@
 .modal-header .close {
     margin-top: 0px;
 }
-
+.modal-body a{
+    color: white;
+}
+.modal-body a:hover{
+    color: white;  
+}
 .close {
     float: right;
     font-size: 21px;
